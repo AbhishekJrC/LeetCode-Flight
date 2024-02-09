@@ -3,7 +3,7 @@ class Solution:
     if not s:
       return ''
 
-    # (start, end) indices of the longest palindrome in s
+    
     indices = [0, 0]
 
     def extend(s: str, i: int, j: int) -> Tuple[int, int]:
